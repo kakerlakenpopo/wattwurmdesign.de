@@ -255,7 +255,7 @@ article a:hover{
     display:grid;
     grid-template-columns: 37.5% 25% 37.5%;
     grid-gap: 1em;
-    margin: 2em;
+    margin: 2em 0;
 }
 .archive_table>li>div{
     display:flex;
