@@ -83,7 +83,7 @@ header a{
 .menu li:hover .sub-menu{
     opacity:1;
 }
-.menu li:active .sub-menu{
+.menu li:checked .sub-menu{ /*onclick*/
     opacity:1;
 }
 ul.sub-menu{
