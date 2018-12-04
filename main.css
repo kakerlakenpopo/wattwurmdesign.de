@@ -29,7 +29,6 @@ img{
 }
 
 header{
-    background-color:#2fd44b;
     text-decoration:none;
     cursor: default;
     padding: 0;
@@ -87,7 +86,6 @@ ul.sub-menu{
     position: absolute;
     list-style-type: none;
     color: #777;
-    background: rgba(255, 255, 255, 0.8);
     width: 100%;
     padding: .5em 0 1em .1em;
     display: none;
