@@ -297,7 +297,7 @@ article a:hover{
     font-weight: bold;
 }
 .about {
-    margin: 5vh 20vw;
+    margin: 5vh 10vw;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
