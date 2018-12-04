@@ -83,9 +83,6 @@ header a{
 .menu li:hover .sub-menu{
     display: block;
 }
-.menu li:checked .sub-menu{ /*onclick*/
-    display: block;
-}
 ul.sub-menu{
     position: absolute;
     list-style-type: none;
@@ -293,7 +290,7 @@ article a:hover{
 .about>div>p>a{
     color: #000;
 }
-.about>div:first-child p{
+.about>div:first-child p, .about>div:first-child h1{
     font-weight: bold;
 }
 .about {
