@@ -317,7 +317,7 @@ article a:hover{
         transform: translateX(195%);
         transform: translateX(-0em);
     }
-    .menu > ul > li:nth-child(2){
+    .menu > ul > li:nth-child(2){ /*leeres div für Abstand zum Logo im menu in @mobile*/
         width: 100%;
     }
     .menu > ul {
