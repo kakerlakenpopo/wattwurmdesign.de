@@ -414,6 +414,9 @@ article a:hover{
     .archive_table>li>div:nth-of-type(1)>a{
         font-size: 120%;
     }
+    .about {
+        margin: 5vh 5vw;
+    }
 
     #myBtn {
         display: none;
