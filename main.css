@@ -363,7 +363,7 @@ article a:hover{
     }
 
     .div-project{
-        margin: 0vh 5vw; /*change!*/
+        margin: 0vh 6vw; /*abstand zu rand*/
     }
     .div-project > div:first-child {
         display: flex;
