@@ -362,6 +362,9 @@ article a:hover{
         text-decoration: none;
     }
 
+    .div-project{
+        margin: 0vh 5vw; /*change!*/
+    }
     .div-project > div:first-child {
         display: flex;
         flex-direction: column;
