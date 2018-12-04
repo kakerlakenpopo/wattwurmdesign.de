@@ -349,7 +349,7 @@ article a:hover{
         padding-bottom: .5em;
         margin-top:0;
         margin-left:-.4em;
-        opacity: 0;
+        display: none;
     }
     ul.sub-menu>li {
         margin-top: .5em; /*sub-menu Abstand (kleiner machen wenn mehrere Monate oder nach jahr sortieren)*/
