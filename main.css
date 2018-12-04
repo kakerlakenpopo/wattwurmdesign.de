@@ -222,7 +222,7 @@ footer>ul>li{
     align-content: flex-start;
     align-items: flex-start;
 }
-.project_flex_images>a>img{
+.project_flex_images>img{
     margin:5px;
     width: 100%; max-width: 320px; min-width: 50px;
 }
