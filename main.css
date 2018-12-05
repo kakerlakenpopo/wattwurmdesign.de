@@ -273,7 +273,7 @@ article a:hover{
     font-size: 150%;
     text-decoration: none;
 }
-.archive_table>li>div:nth-child(3n){
+.archive_table>li>div:nth-child(3n)>a{
     justify-content: flex-start;
     width: 100%; max-width: 150px; min-width: 150px;
 }
