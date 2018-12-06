@@ -1,7 +1,7 @@
-.center_flex > div>ul {
+.center_flex > div>ul:first-child {
   list-style: none;
 }
-.center_flex > div>ul>li {
+.center_flex > div>ul:first-child>li {
   position: absolute;
   opacity: 0;
 }
@@ -20,19 +20,19 @@
 
 /*add: number of child
 for xfade: number of child*5 seconds, +5 seconds*/
-.center_flex > div>ul>li:nth-child(1) {
+.center_flex > div>ul:first-child>li:nth-child(1) {
 
   animation: xfade 5s 0s reverse infinite
 }/*
-.center_flex > div>ul>li:nth-child(2) {
+.center_flex > div>ul:first-child>li:nth-child(2) {
 
   animation: xfade 10s 5s reverse infinite
 }
-.center_flex > div>ul>li:nth-child(3) {
+.center_flex > div>ul:first-child>li:nth-child(3) {
 
   animation: xfade 15s 10s reverse infinite
 }
-.center_flex > div>ul>li:nth-child(4) {
+.center_flex > div>ul:first-child>li:nth-child(4) {
 
   animation: xfade 20s 15s reverse infinite
 }

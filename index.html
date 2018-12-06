@@ -3,11 +3,12 @@
 <head>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="slideshow.css">
+    <link rel="java script" href="random.js">
     <title>wattwurmdesign</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body>
+<body onload="newNeed(), newAdj()">
     <header>
         <nav class='menu'>
             <ul>
@@ -45,19 +46,30 @@
                     <br>under the following specifications:
                 </p>
                 <p>
-                    1 noun - 1 verb - 1 adjective - 24 hours
+                    1 need - 1 adjective - 24 hours
                 </p>
                 <p><br>Click on the words below <br> to see how they are combined:</p>
             </a>
-            <div class="abstand"><a></a></div>
+
         </div>
 
 
         <div>
-            <!-- add 3 words + link to site // slideshow: go to slideshow.css and add data -->
             <ul>
                 <!--<li><a href="#">word, word, word</a></li>-->
-                <li><a href="#">water bottle, squeeze, understood</a></li>
+                <li><a href="#">water bottle and squeeze</a></li>
+            </ul>
+            <div class="abstand"><a></a></div>
+            <ul>
+
+                <li><button class="randomButton" onclick="newNeed(), newAdj()">or click <u>here</u> to create your
+                        words</button></li>
+                <li><a>combine&nbsp;</a>
+                    <div id="needDisplay"></div><a>&nbsp;with&nbsp;</a>
+                    <div id="adjDisplay"></div>
+                </li>
+
+
             </ul>
         </div>
 
@@ -75,6 +87,8 @@
         </ul>
 
     </footer>
+
+    <script src="random.js"></script>
 </body>
 
 </html>

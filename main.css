@@ -145,20 +145,52 @@ footer>ul>li{
 .center_flex>div:last-child{
     margin-bottom: 8em;
 }
-.center_flex>div>ul>li{
+
+
+/*slideshow*/
+.center_flex>div>ul:first-child>li{
     left: 50%;
     transform: translateX(-50%);
     text-align:center;
 }
-.center_flex>div>ul>li>a{
+.center_flex>div>ul:first-child>li>a{
     font-family: 'circular_bold';
     font-size: 220%;
     color:#000;
     text-decoration: none;
 }
 
+
+
+
+.center_flex>div>ul>li{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+#needDisplay, #adjDisplay{ /*random words*/
+    font-family: 'circular_bold';
+    font-size: 220%;
+    color:#000;
+    text-decoration: underline;
+}
+.center_flex>div>ul:last-child>li:last-child{
+    padding-top:.6em;
+}
+.center_flex>div>ul>li>a{ /*random words*/
+    font-family: 'circular_bold';
+    font-size: 220%;
+    color:#000;
+}
 .center_flex>div>a>p{
     font-size:110%;
+}
+.center_flex>div:first-child>a{ /*the mission: + Randausgleich*/
+    transform: translateX(2%);
 }
 .center_flex>div>a>p:first-child{ /*the mission:*/
     font-family: 'avenir_heavy';
@@ -168,6 +200,23 @@ footer>ul>li{
     font-family: 'circular_bold';
     font-size: 110%;
 }
+.center_flex>div>ul{
+    list-style: none;
+    padding: 0;
+}
+.randomButton {
+    background-color: #ffffff;
+    font-family: 'avenir_light';
+    font-size: 110%;
+    border:none;
+    cursor:pointer;
+    color:#000000;
+}
+
+.abstand{
+    margin-top:5em;
+}
+
 
 .pfeillinks{ /*pfeil links*/
     position:fixed;
@@ -301,6 +350,13 @@ article a:hover{
     align-content: flex-start;
 }
 
+
+
+
+
+
+
+
 @media only screen and (max-width: 600px) {
     .menu > ul > li > div:first-child{/*logo: wattwurm*/
         color: #000;
@@ -350,11 +406,14 @@ article a:hover{
         margin-top: .5em; /*sub-menu Abstand (kleiner machen wenn mehrere Monate oder nach jahr sortieren)*/
     }
 
-    .center_flex>div>ul>li>a{
-        font-family: 'circular_bold';
+    .center_flex>div>ul>li{
+        display:block;
+    }
+    #needDisplay, #adjDisplay{ /*random words*/
         font-size: 150%;
-        color:#000;
-        text-decoration: none;
+    }
+    .center_flex>div>ul>li>a{ /*random words*/
+        font-size: 150%;
     }
 
     .div-project{
