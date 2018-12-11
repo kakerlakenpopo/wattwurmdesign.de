@@ -1,0 +1,142 @@
+<html>
+
+<head>
+    <!--titel ändern-->
+    <title>companionship_exaggerated</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="imagepopup.css">
+    <script src="imagepopup.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <nav class='menu'>
+            <ul>
+                <li>
+                    <div>
+                        wattwurm<div>design</div>
+                    </div>
+                </li>
+                <li></li>
+                <li><a href="index.html">home</a></li>
+                <!-- latest project-Link ändern -->
+                <li><a href="latest_project.html">latest project</a></li>
+                <li><a href="about.html">about</a></li>
+                <li>
+                    <a href="#">archive</a>
+                    <ul class='sub-menu'>
+                        <!--<li><a href="archive.html#year_month">month year</a></li>-->
+                        <li><a href="archive.html#18_dez">dez 18</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        </div>
+
+    </header>
+
+    <!--Link vorheriges Projekt einfügen:-->
+    <!--<div class="pfeillinks"><a href="#">&larr;</a></div>-->
+    <!--Link nächstes Projekt einfügen: // NUR BEI LETZTEM PROJEKT-->
+    <!--<div class="pfeilrechts"><a href="#">&rarr;</a></div>-->
+
+    <div class='div-project'>
+        <div>
+            <!--Hier Worte ändern:-->
+            <a>companionship</a>
+            <a>exaggerated</a>
+        </div>
+        <div>
+            <!--Hier Bild ändern. Format muss immer gleich sein: Full HD 1920x10100-->
+            <img src="projekte/companionship_exaggerated/companionship_exaggerated_img3.png" width=100% alt="image_name">
+        </div>
+        <div>
+            <p>
+                <h1>description</h1>
+                <!--Hier Beschreibung eingeben:-->
+                a companion is there for you in times in need. A companion gives you advice and comforts you when you
+                have troubles. This website gives people the chance to contact a virtual companion whenever needed -
+                24/7 if wanted. But in the end it is still just a machine. It will not remember anything you said but
+                it can help you to give yourself feedback by reflecting on your situation.
+                <br>Try it yourself: <a href="https://kakerlakenpopo.github.io/companion/" target="_blank">click here</a>.
+            </p>
+            <br>
+            <p>
+                <h1>process</h1>
+                <!--Hier Prozess eingeben:-->
+                I tried to figure out what the essence of the words are. I translated them to german (hence I am
+                german) to get background information and put them into context. Talking to friends really helped me to
+                ideate. We mostly brainstormed verbally about things that already existed and what kind of project
+                would be possible to implement with these words.
+            </p>
+            <br>
+            <p>
+                <h1>experience</h1>
+                <!--Hier Erfahrung eingeben:-->
+                Talking to people really helps. More minds, more ideas. Since I was busy during these 24 hours I could
+                not spend a long time ideating and grabbed one of the first ideas to implemented it. I generated a
+                small website and put it online wich is fun doing in a short time. Honestly I have to say that I am not
+                fully convinced with this project. Since the concept of <i>wattwurmdesign</i> is quantity over quality
+                one has to start with something - even though it might not be as cool as you originally hoped.
+
+            </p>
+        </div>
+    </div>
+
+    <!--Hier 3 Bilder + Namen einfügen eingeben:-->
+    <div class='project_flex_images'>
+        <img id="myImg" src="projekte/companionship_exaggerated/companionship_exaggerated_img5.jpg" alt="image_name" onclick="openModal();currentSlide(1)" class="hover">
+        <img src="projekte/companionship_exaggerated/companionship_exaggerated_img2.png" alt="image_name" onclick="openModal();currentSlide(2)" class="hover">
+        <img src="projekte/companionship_exaggerated/companionship_exaggerated_img4.png" alt="image_name" onclick="openModal();currentSlide(3)" class="hover">
+    </div>
+
+    <footer>
+
+        <ul>
+            <li><a href="mailto:Veronika.Kaiping@googlemail.com?subject=wattwurm design">send a mail</a></li>
+            <li><a href="https://t.me/kakerlakenpopo" target="_blank">telegram me</a></li>
+            <li><a href="https://www.instagram.com/wattwurm.design/" target="_blank">stalk on instagram</a></li>
+            <li><a href="privacy_policy.html">privacy policy</a></li>
+            <li><a href="imprint.html">imprint</a></li>
+            <li><a> &copy; 2018 Veronika Kaiping</a></li>
+        </ul>
+
+    </footer>
+
+    <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 3</div>
+                <img src="projekte/companionship_exaggerated/companionship_exaggerated_img5.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 3</div>
+                <img src="projekte/companionship_exaggerated/companionship_exaggerated_img2.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 3</div>
+                <img src="projekte/companionship_exaggerated/companionship_exaggerated_img4.png" style="width:100%">
+            </div>
+
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Caption text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+                <p id="caption"></p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

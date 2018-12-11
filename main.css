@@ -261,6 +261,9 @@ footer>ul>li{
     width:100%; max-width: 800px;
     padding: 0; 
 }
+.div-project >div>a{
+    color: black;
+}
 
 .project_flex_images{
     margin: 5vh 0;
@@ -322,8 +325,9 @@ article a:hover{
     font-size: 150%;
     text-decoration: none;
 }
-.archive_table>li>div:nth-child(3n)>a{
+.archive_table>li>div:nth-child(3n){
     justify-content: flex-start;
+    justify-items: flex-start;
     width: 100%; max-width: 150px; min-width: 150px;
 }
 
