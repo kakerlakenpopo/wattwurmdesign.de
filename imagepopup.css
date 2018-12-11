@@ -1,3 +1,5 @@
+@media only screen and (min-width: 600px) {
+
 .row > .column {
     padding: 0 8px;
   }
@@ -119,3 +121,4 @@
   img.hover {
     cursor: pointer;
   }
+}
