@@ -68,17 +68,18 @@ header a{
     color: rgb(0, 0, 0);
     font-weight: bold;
 }
-.menu > ul > li > div:first-child{/*logo: wattwurm*/
+.menu > ul > li > div:first-child>a{/*logo: wattwurm*/
     color: #000;
     font-family: 'circular_bold';
     font-size: 60px;
     line-height: .8em;/*Abstand zu wattwurm*/
 }
-.menu > ul > li > div:first-child>div{/*logo: design*/
+.menu > ul > li > div:first-child>a>div{/*logo: design*/
     font-family: 'circular_book';
     text-align: right;
     font-size: 32.5px;
 }
+
 .menu li:hover .sub-menu{
     display: block;
 }
@@ -276,7 +277,7 @@ footer>ul>li{
 }
 .project_flex_images>img{
     margin:5px;
-    width: 100%; max-width: 320px; min-width: 50px;
+    width: 100%; max-width: 400px; min-width: 50px;
 }
 
 article{
